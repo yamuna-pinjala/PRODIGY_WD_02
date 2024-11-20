@@ -1,0 +1,41 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    background-image: url('https://media.istockphoto.com/id/1393709868/vector/clock-or-stopwatch-pocket-watch-on-a-dark-blue-background-clockwork-pocket-watch-abstract.jpg?s=612x612&w=0&k=20&c=SW3NnN07tAy-UOeE8s82l3BhUOosnRtMKRM5Q99ru54='); 
+    background-size: cover; 
+    background-position: right; 
+    font-family: Arial, sans-serif;
+}
+
+.stopwatch {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#display {
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+.controls button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#laps {
+    margin-top: 20px;
+}
+
+#lapList {
+    list-style-type: none;
+    padding: 0;
+}
